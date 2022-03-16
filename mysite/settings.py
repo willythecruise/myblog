@@ -27,11 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 #Sending enail with google smtp server
-'''EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'emmanuelwilliam49@gmail.com'
-EMAIL_HOST_PASSWORD = 'Williamemma'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True'''
+
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
